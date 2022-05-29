@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "meroschool",
+    "password": "reborn1234",
+    "database": "entrance",
+    "host": "ec2-3-109-184-97.ap-south-1.compute.amazonaws.com",
+    "dialect": "postgres"
+  },
+
+  "test": {
+    "username": "postgres",
+    "password": "postgres123",
+    "database": "database_development_entrance_exam",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "entranceExam",
+    "password": "entranceExam12345@#",
+    "database": "entranceExam",
+    "host": "http://localhost:3306",
+    "dialect": "mysql"
+  }
+}
